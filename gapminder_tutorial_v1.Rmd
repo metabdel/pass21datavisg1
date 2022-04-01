@@ -4,15 +4,14 @@ author: "Franklin Ducatez & Abdellah Tebani"
 date: "`r Sys.Date()`" # Current date
 output:
    rmdformats::readthedown:
+    
     highlight: kate
     code_folding: show
     toc_depth: 3
     toc_float: true
-    
 layout: post
 showtoc: no
 description: Un tutoriel complet contenant une introduction générale à ggplot2 ainsi que de nombreux exemples sur la façon de modifier un ggplot, étape par étape. Il couvre plusieurs sujets tels que les différents types de graphiques, les thèmes, les choix de conception, et la modification des axes, des étiquettes et des légendes et bien d'autres encore.
-
 tags:
 - DataViz
 - tutorial
@@ -21,7 +20,6 @@ tags:
 - ggplot2
 editor_options:
   chunk_output_type: console
-
 ---
 
 ```{r set options, include=FALSE}
