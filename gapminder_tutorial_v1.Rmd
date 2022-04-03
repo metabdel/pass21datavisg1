@@ -55,6 +55,7 @@ library(gapminder)
 library(ggthemes)
 library(countrycode)
 library(ggpp)
+library(ggrepel)
 
 ```
 
