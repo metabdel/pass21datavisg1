@@ -13,7 +13,7 @@ dependencies:
   # - jupyterlab-topbar-text
   # - jupyterlab-system-monitor
   # - nodejs
-  - r-irkernel
+  # - r-irkernel
   - r-base>=4
   - r-tidyverse
   - r-gapminder
