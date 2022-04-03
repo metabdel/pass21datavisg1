@@ -1,0 +1,16 @@
+
+
+install.packages("tidyverse")
+install.packages("rmarkdown")
+install.packages("httr")
+install.packages("shinydashboard")
+install.packages('leaflet')
+install.packages("tidyverse")
+install.packages("here")
+install.packages("forcats")
+install.packages("ggdist")
+install.packages("ggtext")
+install.packages("gapminder")
+install.packages("ggthemes")
+install.packages("countrycode")
+install.packages("ggpp")
