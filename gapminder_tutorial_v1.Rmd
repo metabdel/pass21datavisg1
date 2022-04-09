@@ -540,7 +540,7 @@ final_result <-
         legend.position = "none"
         ) +
 
-  labs(title = "Espérence de vie et Revenus") +
+  labs(title = "Espérance de vie vs Revenus") +
   annotate("plot_npc", npcx = "right", npcy = "bottom", label = continent_map) +
   gganimate::transition_time(year) +
   gganimate::exit_fade()
@@ -566,8 +566,8 @@ anim_save("final_result.gif",
           animation = final_result,
           # fps = 25
           # fps = 10,
-          width = 800, 
-          height = 700
+          width = 1600, 
+          height = 1000
 )
 
 
